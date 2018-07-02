@@ -1,0 +1,1364 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2917623960,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 13,
+            "value": "#    todo"
+          },
+          {
+            "line": 14,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 15,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 8382575458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1071854515,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I click My1 account",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1321854667,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 24,
+            "value": "#    todo"
+          },
+          {
+            "line": 25,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 26,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 4403381232,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 992953652,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3273696070,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2150420300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2368035384,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2268268371,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2567888794,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3466827948,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 35,
+            "value": "#    todo"
+          },
+          {
+            "line": 36,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 37,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6675016105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 916020404,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3221366778,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2260323041,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2298673142,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2287634809,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2743212510,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3391551386,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 46,
+            "value": "#    todo"
+          },
+          {
+            "line": 47,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 48,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6531274470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 967782776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3309573820,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2249279275,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2432144412,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2167825160,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2690816201,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3095644015,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 57,
+            "value": "#    todo"
+          },
+          {
+            "line": 58,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 59,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5765170839,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 935441180,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3213123196,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2198085031,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2345341688,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2292353707,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2424673629,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 61,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3243031687,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 68,
+            "value": "#    todo"
+          },
+          {
+            "line": 69,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 70,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6057106753,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 917364348,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3196432571,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2209379352,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2440140456,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2286063856,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2627859126,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 71,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3043544752,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 78,
+            "value": "#    todo"
+          },
+          {
+            "line": 79,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 80,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5324379543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 984735429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3208991746,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2187432494,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2337576276,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2234777842,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2419399283,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 82,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3175071952,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 89,
+            "value": "#    todo"
+          },
+          {
+            "line": 90,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 91,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5618874142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 93,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 954249755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3296913819,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2259875060,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2274636709,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2230270860,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3838026371,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 92,
+            "name": "@confusedsignin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2767964383,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter url as \"https://www.confused.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.confused.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "d3dregister.iEnterUrlAs(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 99,
+            "value": "#    todo"
+          },
+          {
+            "line": 100,
+            "value": "#    Then I should see \"Beat your renewal guaranteed\" in confused web"
+          },
+          {
+            "line": 101,
+            "value": "#    Then I should see \"Retrieve a Quote\" in confused web"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6391372073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforebowser()"
+            }
+          }
+        ],
+        "line": 103,
+        "name": "loging with valid details",
+        "description": "",
+        "id": "confused;loging-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 951500285,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3209291809,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I click My account",
+            "match": {
+              "location": "confused.iClickMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2253367256,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I click Log in",
+            "match": {
+              "location": "confused.iClickLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2379871269,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I enter email address as \"suneet023@yahoo.com\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suneet023@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "confused.iEnterEmailAddressAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2215977115,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I enter password as \"Peugeot1\" in confused web",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peugeot1",
+                  "offset": 21
+                }
+              ],
+              "location": "confused.iEnterPasswordAsInConfusedWeb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5648772972,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I click Login",
+            "match": {
+              "location": "confused.iClickLogin()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 102,
+            "name": "@confusedsignin"
+          }
+        ]
+      }
+    ],
+    "name": "confused",
+    "description": "",
+    "id": "confused",
+    "keyword": "Feature",
+    "uri": "confused.feature"
+  }
+]
