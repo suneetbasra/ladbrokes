@@ -57,8 +57,9 @@ public class moneysuper extends opendriver {
     @Then("^I should get an error message as \"([^\"]*)\" in moneyweb$")
     public void iShouldGetAnErrorMessageAsInMoneyweb(String error) throws Throwable {
 
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.findElement(By.xpath(".//*[@id='signInForm']/div/div[2]/div/div[5]/div")).getText();
         driver.findElement(By.xpath(".//*[@id='signInForm']/div/span[2]/span/span/div[5]/div")).getText();
+//        github sample
     }
 }
