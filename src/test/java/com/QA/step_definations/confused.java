@@ -50,6 +50,7 @@ public class confused extends opendriver {
     public void iClickLogin() throws Throwable {
 
         driver.findElement(By.xpath(".//*[@id='login']")).click();
+        //testing by ravikumar
     }
 
     @Then("^I should see \"([^\"]*)\" in confused web$")
