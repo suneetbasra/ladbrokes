@@ -60,7 +60,7 @@ public class moneysuper extends opendriver {
     public void iShouldGetAnErrorMessageAsInMoneyweb(String error) throws Throwable {
 
         Thread.sleep(5000);
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(3);
         driver.findElement(By.xpath(".//*[@id='signInForm']/div/div[2]/div/div[5]/div")).getText();
         driver.findElement(By.xpath(".//*[@id='signInForm']/div/span[2]/span/span/div[5]/div")).getText();
 //        github sample
