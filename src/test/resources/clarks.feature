@@ -12,7 +12,7 @@ Feature: clarks
       When I click black
 #      todo
       Then I should see "32 STYLES FOUND" on clarks website
-      Then I should see some thing
-      Then I should see something
-      Then I should see something
+#      Then I should see some thing
+#      Then I should see something
+#      Then I should see something
       
