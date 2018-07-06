@@ -7,6 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 
+import javax.xml.soap.SAAJResult;
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertEquals;
@@ -54,22 +55,28 @@ public class confused extends opendriver {
     }
 
     @Then("^I should see \"([^\"]*)\" in confused web$")
-    public void iShouldSeeInConfusedWeb(String expectedresults) throws Throwable {
+    public void iShouldSeeInConfusedWeb(String expectedtext) throws Throwable {
 
         Thread.sleep(5000);
 
-        String actualresults;
+//        String result__actual;
+//
+//        result__actual = driver.findElement(By.xpath(".//*[@id='main']/form/div[2]/div/p")).getText();
+//
+//        assertEquals(expectedtext, result__actual);
+//
+        String acutal_text;
 
-        if (expectedresults.equals("Beat your renewal guaranteed")) {
-            actualresults = driver.findElement(By.xpath(".//*[@id='main']/div[1]/div/div/div/div/div[1]/h3")).getText();
+        if (expectedtext.equals("You haven't saved any cars yet!")) {
+            acutal_text = driver.findElement(By.xpath(".//*[@id='main']/form/div[2]/div/p")).getText();
         } else {
-            actualresults = driver.findElement(By.xpath("/html/body/form/div[3]/div[1]/div/div/div/header/div/div/div[2]/a[1]")).getText();
+            acutal_text = driver.findElement(By.xpath("/html/body/form/div[3]/div[1]/div/div/div/header/div/div/div[2]/a[1]")).getText();
         }
 
-//        assertTrue(actualresults.equals(expectedresults));
-        assertFalse(actualresults.equals(expectedresults));
+        assertTrue(acutal_text.equals(expectedtext));
+//        assertFalse(actualresults.equals(expectedresults));
 //        assertEquals(expectedresults.toUpperCase(), actualresults.toUpperCase());
-        assertNotEquals(expectedresults.toUpperCase(), actualresults.toUpperCase());
+//        assertNotEquals(expectedresults.toUpperCase(), actualresults.toUpperCase());
     }
 
     @When("^I click logout$")
@@ -83,5 +90,11 @@ public class confused extends opendriver {
 
         driver.findElement(By.xpath(".//*[@id='main']/div[1]/div/div/div/div/div[1]/h4")).getText();
 
+    }
+
+    @When("^I click saved car adverts$")
+    public void iClickSavedCarAdverts() throws Throwable {
+
+        driver.findElement(By.xpath(".//*[@id='frmBody']/div[3]/div[1]/div/div/div/header/div/div/div[2]/nav/ul/li[2]/a")).click();
     }
 }

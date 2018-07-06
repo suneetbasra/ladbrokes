@@ -7,6 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 
+import static org.junit.Assert.assertEquals;
+
 public class d3dquote extends opendriver {
 
     @Given("^I enter first name as \"([^\"]*)\" in security site$")
@@ -59,10 +61,15 @@ public class d3dquote extends opendriver {
     }
 
     @Then("^I should get an error message as \"([^\"]*)\" in security site$")
-    public void iShouldGetAnErrorMessageAsInSecuritySite(String arg0) throws Throwable {
+    public void iShouldGetAnErrorMessageAsInSecuritySite(String errormessage) throws Throwable {
+
+        String actualerror;
+
 
         Thread.sleep(5000);
-        driver.findElement(By.xpath(".//*[@id='wpcf7-f391-o1']/form/p[3]/span/span")).getText();
+        actualerror = driver.findElement(By.xpath(".//*[@id='wpcf7-f391-o1']/form/p[3]/span/span")).getText();
+
+        assertEquals(actualerror, errormessage);
 
     }
 

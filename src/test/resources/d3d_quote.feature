@@ -13,7 +13,7 @@ Feature: get quote
     Given I enter message as "quote me happy" in security site
 #    Given I enter captcha code as "shown on screen" in seciruty site
     When I click send message button in security site
-    Then I should get an error message as "Your entered code is incorrect." in security site
+    Then I should get an error message as "YOUR ENTERED CODE IS INCORRECT." in security site
 
 
 #    .//*[@id='wpc_5b2df58f06107']/div/div/div/div/div/h2

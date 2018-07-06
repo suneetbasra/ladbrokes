@@ -45,7 +45,7 @@ public class clarks extends opendriver {
     @When("^I click black$")
     public void iClickBlack() throws Throwable {
 
-        driver.findElement(By.xpath(".//*[@id='Colour3Label']/span[1]")).click();
+        driver.findElement(By.xpath(".//*[@id='Colour5Label']/span[2]")).click();
     }
 
     @Then("^I should see \"([^\"]*)\" on clarks website$")
@@ -64,6 +64,6 @@ public class clarks extends opendriver {
     @When("^I click size eight$")
     public void iClickSizeEight() throws Throwable {
 
-        driver.findElement(By.xpath(".//*[@id='page']/div[2]/div[1]/div/div/div[1]/div/a[2]")).sendKeys();
+        driver.findElement(By.xpath(".//*[@id='page']/div[2]/div[1]/div/div/div[1]/div/a[3]")).sendKeys();
     }
 }
