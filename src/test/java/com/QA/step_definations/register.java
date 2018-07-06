@@ -179,16 +179,24 @@ public class register extends opendriver {
 
         String actualerror = null;
         if (expectederror.equals("The email addresses entered do not match")) {
-
             actualerror = driver.findElement(By.xpath(".//*[@id='RegistrationMiddlePanel']/div[2]/div/div[2]/label[2]")).getText();
-        } else if (expectederror.equals("Please enter the contact's city")) {
+//            assertEquals(expectederror, actualerror);
+        }
+        else if (expectederror.equals("Please enter the contact's city")) {
 
             actualerror = driver.findElement(By.xpath(".//*[@id='MemberPersonalInfoPanel']/div[2]/label[2]")).getText();
-        } else if (expectederror.equals("The email addresses entered do not match |")) {
+//            assertEquals(expectederror, actualerror);
+        }
+        else if (expectederror.equals("The email addresses entered do not match |")) {
 
             actualerror = driver.findElement(By.xpath(".//*[@id='RegistrationMiddlePanel']/div[2]/div/div[2]/label[2]")).getText();
+//            assertEquals(expectederror, actualerror);
         }
+
+
         assertEquals(expectederror, actualerror);
+
+
 
     }
 
