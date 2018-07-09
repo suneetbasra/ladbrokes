@@ -9,7 +9,7 @@ public class Hooks {
     @Before
     public void beforebowser() {
         odriver.openbrowser();
-        System.out.println("BEFORE BEFORE");
+        System.out.println("BEFORE    BEFORE");
     }
 
     @After
